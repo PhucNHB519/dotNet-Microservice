@@ -12,7 +12,7 @@ namespace Mango.Web.Service
     {
         private readonly IHttpClientFactory _httpClientFactory;
 
-        private BaseService(IHttpClientFactory httpClientFactory)
+        public BaseService(IHttpClientFactory httpClientFactory)
         {
             _httpClientFactory = httpClientFactory;
         }
